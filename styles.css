@@ -1,0 +1,33 @@
+#box {
+  background: red;
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  top: 50%;
+  left: 50%;
+}
+
+#box.leftbox {
+  background:red;
+  display: block;
+  position: left;
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  top: 0;
+  left: 0;
+}
+
+
+#box.rightbox {
+  background: red;
+  display: block;
+  position: right;
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  top: 0;
+  right: 0;
+}

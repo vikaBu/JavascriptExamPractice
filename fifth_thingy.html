@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body style="position: relative;">  
+
+    <div onclick="A()" id="box" style=" position: absolute; width: 50px; height: 50px; background-color:red"></div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <button id="left" onclick="moveleft()">left</button>
+    <button class="right" onclick="moveright()">right</button>
+    <!-- <div id="box" style="width: 50px; height: 50px; background-color:red"></div> -->
+
+<script> 
+
+ function moveleft() {
+   let move = document.getElementById('box');
+   move.style.left = Number(move.style.left.slice(0, -2)) - 10 + 'px';
+ }
+
+ function moveright() {
+   let move = document.getElementById('box');
+   move.style.left = Number(move.style.left.slice(0, -2)) + 10 + 'px';
+ }
+
+
+function A() {
+  document.getElementById('box').style;
+ }
+</script>
+</body>
+</html>
